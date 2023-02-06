@@ -36,6 +36,7 @@
             "card_number": "",
             "roles": "Оператор"
         }
+<<<<<<< HEAD
     ],
 
     "comments": [
@@ -54,4 +55,7 @@
     "profile": {
         "name": "ArteilDev"
     }
+=======
+    ]
+>>>>>>> parent of a0ff55a (Test)
 }
