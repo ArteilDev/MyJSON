@@ -27,6 +27,7 @@
 
     "tpa": [
         {
+            "id": 0,
             "name": "Engel 5500",
             "condition": {
                 "EAM": "В простое",
@@ -38,6 +39,7 @@
         
         },
         {
+            "id": 1,
             "name": "Engel 160",
             "condition": {
                 "EAM": "В работе",
@@ -49,6 +51,7 @@
         
         },
         {
+            "id": 2,
             "name": "Uniloy 2500",
             "condition": {
                 "EAM": "В работе",
@@ -60,6 +63,7 @@
         
         },
         {
+            "id": 3,
             "name": "Krauss Maffei 1600",
             "condition": {
                 "EAM": "В работе",
@@ -71,6 +75,7 @@
         
         },
         {
+            "id": 4,
             "name": "ТПА Engel 2300",
             "condition": {
                 "EAM": "В работе",
@@ -82,6 +87,7 @@
         
         },
         {
+            "id": 5,
             "name": "ТПА Haitian 2400",
             "condition": {
                 "EAM": "В простое",
@@ -93,6 +99,7 @@
         
         },
         {
+            "id": 6,
             "name": "ТПА Krauss Maffei 1600 (2)",
             "condition": {
                 "EAM": "В работе",
