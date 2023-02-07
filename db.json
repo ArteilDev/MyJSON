@@ -1,51 +1,107 @@
 {
-  "users":
-  [
-    {"id": 1, "last_name": "Тазеев", "name": "Марат", "middle_name": "Айратович", "username": "tazeev.m", "card_number": "", "roles": "Администратор"},
-    {"id": 2, "last_name": "Ермолаев", "name": "Василий", "middle_name": "Евгеньевич", "username": "erolaev.v", "card_number": "", "roles": "Администратор"},
-    {"id": 3, "last_name": "Комаров", "name": "Павел", "middle_name": "Викторович", "username": "komarov.p", "card_number": "", "roles": "Администратор"},
-    {"id": 4, "last_name": "Воронина", "name": "Мелания", "middle_name": "Львовна", "username": "voronina.m", "card_number": "", "roles": "Оператор"},
-    {"id": 5, "last_name": "Гусев", "name": "Михаил", "middle_name": "Константинович", "username": "gusev.m", "card_number": "", "roles": "Наладчик"},
-    {"id": 6, "last_name": "Иванова", "name": "Валерия", "middle_name": "Алексеевна", "username": "ivanova.v", "card_number": "", "roles": "Оператор"},
-    {"id": 7, "last_name": "Корнева", "name": "Ариана", "middle_name": "Леонидовна", "username": "korneva.a", "card_number": "", "roles": "Оператор, Наладчик"},
-    {"id": 8, "last_name": "Матвеев", "name": "Матвей", "middle_name": "Лукич", "username": "matveev.m", "card_number": "", "roles": "Оператор"},
-    {"id": 9, "last_name": "Александрова", "name": "Эмилия", "middle_name": "Никитична", "username": "alexandrova.e", "card_number": "", "roles": "Наладчик"},
-    {"id": 10, "last_name": "Петухов", "name": "Даниил", "middle_name": "Михайлович", "username": "petuhov.d", "card_number": "", "roles": "Оператор"},
-    {"id": 11, "last_name": "Козлов", "name": "Степан", "middle_name": "Викторович", "username": "kozlov.s", "card_number": "", "roles": "Наладчик"},
-    {"id": 12, "last_name": "Мельникова", "name": "Марта", "middle_name": "Львовна", "username": "melnikova.m", "card_number": "", "roles": "Оператор"},
-    {"id": 13, "last_name": "Смирнов", "name": "Степан", "middle_name": "Александрович", "username": "smirnov.s", "card_number": "", "roles": "Наладчик"},
-    {"id": 14, "last_name": "Суханов", "name": "Дмитрий", "middle_name": "Романович", "username": "suhanov.d", "card_number": "", "roles": "Оператор"},
-    {"id": 15, "last_name": "Грачева", "name": "Виктория", "middle_name": "Савельевна", "username": "gracheva.v", "card_number": "", "roles": "Оператор"},
-    {"id": 16, "last_name": "Третьяков", "name": "Николай", "middle_name": "Даниилович", "username": "tretiakov.n", "card_number": "", "roles": "Технолог"},
-    {"id": 17, "last_name": "Леонова", "name": "Василиса", "middle_name": "Владиславовна", "username": "leonova.v", "card_number": "", "roles": "Оператор"},
-    {"id": 19, "last_name": "Соловьев", "name": "Михаил", "middle_name": "Никитич", "username": "soloviev.m", "card_number": "", "roles": "Оператор"},
-    {"id": 20, "last_name": "Зотова", "name": "Ольга", "middle_name": "Данииловна", "username": "zotova.o", "card_number": "", "roles": "Наладчик"},
-    {"id": 21, "last_name": "Казакова", "name": "Надежда", "middle_name": "Глебовна", "username": "kazakova.n", "card_number": "", "roles": "Оператор"},
-    {"id": 22, "last_name": "Зубкова", "name": "Милана", "middle_name": "Данииловна", "username": "zubkova.m", "card_number": "", "roles": "Оператор"},
-    {"id": 23, "last_name": "Дементьева", "name": "Мария", "middle_name": "Егоровна", "username": "dementieva.m", "card_number": "", "roles": "Технолог"},
-    {"id": 24, "last_name": "Савин", "name": "Николай", "middle_name": "Кириллович", "username": "savin.n", "card_number": "", "roles": "Наладчик"},
-    {"id": 25, "last_name": "Колесникова", "name": "Софья", "middle_name": "Марковна", "username": "kolesnikova.s", "card_number": "", "roles": "Оператор"},
-    {"id": 26, "last_name": "Кравцов", "name": "Антон", "middle_name": "Кириллович", "username": "kravcev.a", "card_number": "", "roles": "Оператор"},
-    {"id": 27, "last_name": "Филатов", "name": "Александр", "middle_name": "Максимович", "username": "filatov.a", "card_number": "", "roles": "Наладчик"},
-    {"id": 28, "last_name": "Волкова", "name": "Вера", "middle_name": "Владимировна", "username": "volkova.v", "card_number": "", "roles": "Оператор"},
-    {"id": 29, "last_name": "Савельев", "name": "Александр", "middle_name": "Александрович", "username": "saveliev.a", "card_number": "", "roles": "Оператор"}
-  ],
+    "users":
+    [
+        {"id": 1, "last_name": "Тазеев", "name": "Марат", "middle_name": "Айратович", "username": "tazeev.m", "card_number": "", "roles": "Администратор"},
+        {"id": 2, "last_name": "Ермолаев", "name": "Василий", "middle_name": "Евгеньевич", "username": "erolaev.v", "card_number": "", "roles": "Администратор"},
+        {"id": 3, "last_name": "Комаров", "name": "Павел", "middle_name": "Викторович", "username": "komarov.p", "card_number": "", "roles": "Администратор"},
+        {"id": 4, "last_name": "Воронина", "name": "Мелания", "middle_name": "Львовна", "username": "voronina.m", "card_number": "", "roles": "Оператор"},
+        {"id": 5, "last_name": "Гусев", "name": "Михаил", "middle_name": "Константинович", "username": "gusev.m", "card_number": "", "roles": "Наладчик"},
+        {"id": 6, "last_name": "Иванова", "name": "Валерия", "middle_name": "Алексеевна", "username": "ivanova.v", "card_number": "", "roles": "Оператор"},
+        {"id": 7, "last_name": "Корнева", "name": "Ариана", "middle_name": "Леонидовна", "username": "korneva.a", "card_number": "", "roles": "Оператор, Наладчик"},
+        {"id": 8, "last_name": "Матвеев", "name": "Матвей", "middle_name": "Лукич", "username": "matveev.m", "card_number": "", "roles": "Оператор"},
+        {"id": 9, "last_name": "Александрова", "name": "Эмилия", "middle_name": "Никитична", "username": "alexandrova.e", "card_number": "", "roles": "Наладчик"},
+        {"id": 10, "last_name": "Петухов", "name": "Даниил", "middle_name": "Михайлович", "username": "petuhov.d", "card_number": "", "roles": "Оператор"},
+        {"id": 11, "last_name": "Козлов", "name": "Степан", "middle_name": "Викторович", "username": "kozlov.s", "card_number": "", "roles": "Наладчик"},
+        {"id": 12, "last_name": "Мельникова", "name": "Марта", "middle_name": "Львовна", "username": "melnikova.m", "card_number": "", "roles": "Оператор"},
+        {"id": 13, "last_name": "Смирнов", "name": "Степан", "middle_name": "Александрович", "username": "smirnov.s", "card_number": "", "roles": "Наладчик"},
+        {"id": 14, "last_name": "Суханов", "name": "Дмитрий", "middle_name": "Романович", "username": "suhanov.d", "card_number": "", "roles": "Оператор"},
+        {"id": 15, "last_name": "Грачева", "name": "Виктория", "middle_name": "Савельевна", "username": "gracheva.v", "card_number": "", "roles": "Оператор"},
+        {"id": 16, "last_name": "Третьяков", "name": "Николай", "middle_name": "Даниилович", "username": "tretiakov.n", "card_number": "", "roles": "Технолог"},
+        {"id": 17, "last_name": "Леонова", "name": "Василиса", "middle_name": "Владиславовна", "username": "leonova.v", "card_number": "", "roles": "Оператор"},
+        {"id": 19, "last_name": "Соловьев", "name": "Михаил", "middle_name": "Никитич", "username": "soloviev.m", "card_number": "", "roles": "Оператор"},
+        {"id": 20, "last_name": "Зотова", "name": "Ольга", "middle_name": "Данииловна", "username": "zotova.o", "card_number": "", "roles": "Наладчик"},
+        {"id": 21, "last_name": "Казакова", "name": "Надежда", "middle_name": "Глебовна", "username": "kazakova.n", "card_number": "", "roles": "Оператор"},
+        {"id": 22, "last_name": "Зубкова", "name": "Милана", "middle_name": "Данииловна", "username": "zubkova.m", "card_number": "", "roles": "Оператор"},
+        {"id": 23, "last_name": "Дементьева", "name": "Мария", "middle_name": "Егоровна", "username": "dementieva.m", "card_number": "", "roles": "Технолог"}
+    ],
 
-  "posts":
-  [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-
-  "comments":
-  [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-
-  "profile":
-  {
-    "name": "ArteilDev"
-  }
+    "tpa": [
+        {
+            "name": "Engel 5500",
+            "condition": {
+                "EAM": "В простое",
+                "Terminal": "В простое"
+            },
+            "pressform": "Мусорный бак 1100л",
+            "prodPlan": 354,
+            "prodFact": 53
+        
+        },
+        {
+            "name": "Engel 160",
+            "condition": {
+                "EAM": "В работе",
+                "Terminal": "В работе"
+            },
+            "pressform": "Перегородка поперечная TD1509.1",
+            "prodPlan": 4800,
+            "prodFact": 4320
+        
+        },
+        {
+            "name": "Uniloy 2500",
+            "condition": {
+                "EAM": "В работе",
+                "Terminal": "В простое"
+            },
+            "pressform": "Мусорный бак 1100л",
+            "prodPlan": 480,
+            "prodFact": 240
+        
+        },
+        {
+            "name": "Krauss Maffei 1600",
+            "condition": {
+                "EAM": "В работе",
+                "Terminal": "В работе"
+            },
+            "pressform": "Мусорный бак 1100л",
+            "prodPlan": 370,
+            "prodFact": 303
+        
+        },
+        {
+            "name": "ТПА Engel 2300",
+            "condition": {
+                "EAM": "В работе",
+                "Terminal": "В простое"
+            },
+            "pressform": "Мусорный бак 1100л",
+            "prodPlan": 49,
+            "prodFact": 397
+        
+        },
+        {
+            "name": "ТПА Haitian 2400",
+            "condition": {
+                "EAM": "В простое",
+                "Terminal": "В простое"
+            },
+            "pressform": "",
+            "prodPlan": 0,
+            "prodFact": 0
+        
+        },
+        {
+            "name": "ТПА Krauss Maffei 1600 (2)",
+            "condition": {
+                "EAM": "В работе",
+                "Terminal": "В работе"
+            },
+            "pressform": "Ящик R-KLT 6429.1 (RL-KLT 6280.1)",
+            "prodPlan": 576,
+            "prodFact": 325
+        
+        }
+    ]
 }
