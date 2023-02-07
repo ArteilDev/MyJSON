@@ -28,8 +28,7 @@
     {"id": 26, "last_name": "Кравцов", "name": "Антон", "middle_name": "Кириллович", "username": "kravcev.a", "card_number": "", "roles": "Оператор"},
     {"id": 27, "last_name": "Филатов", "name": "Александр", "middle_name": "Максимович", "username": "filatov.a", "card_number": "", "roles": "Наладчик"},
     {"id": 28, "last_name": "Волкова", "name": "Вера", "middle_name": "Владимировна", "username": "volkova.v", "card_number": "", "roles": "Оператор"},
-    {"id": 29, "last_name": "Савельев", "name": "Александр", "middle_name": "Александрович", "username": "saveliev.a", "card_number": "", "roles": "Оператор"},
-    {"id": 30, "last_name": "Киселева", "name": "Маргарита", "middle_name": "Тимофеевна", "username": "kiseleva.m", "card_number": "", "roles": "Оператор"}
+    {"id": 29, "last_name": "Савельев", "name": "Александр", "middle_name": "Александрович", "username": "saveliev.a", "card_number": "", "roles": "Оператор"}
   ],
 
   "posts":
