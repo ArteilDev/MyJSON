@@ -30,8 +30,8 @@
             "id": 0,
             "name": "Engel 5500",
             "condition": {
-                "EAM": "В простое",
-                "Terminal": "В простое"
+                "EAM": 0,
+                "Terminal": 0
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 354,
@@ -42,8 +42,8 @@
             "id": 1,
             "name": "Engel 160",
             "condition": {
-                "EAM": "В работе",
-                "Terminal": "В работе"
+                "EAM": 1,
+                "Terminal": 1
             },
             "pressform": "Перегородка поперечная TD1509.1",
             "prodPlan": 4800,
@@ -54,8 +54,8 @@
             "id": 2,
             "name": "Uniloy 2500",
             "condition": {
-                "EAM": "В работе",
-                "Terminal": "В простое"
+                "EAM": 1,
+                "Terminal": 0
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 480,
@@ -66,8 +66,8 @@
             "id": 3,
             "name": "Krauss Maffei 1600",
             "condition": {
-                "EAM": "В работе",
-                "Terminal": "В работе"
+                "EAM": 1,
+                "Terminal": 0
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 370,
@@ -76,10 +76,10 @@
         },
         {
             "id": 4,
-            "name": "ТПА Engel 2300",
+            "name": "Engel 2300",
             "condition": {
-                "EAM": "В работе",
-                "Terminal": "В простое"
+                "EAM": 1,
+                "Terminal": 0
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 49,
@@ -88,10 +88,10 @@
         },
         {
             "id": 5,
-            "name": "ТПА Haitian 2400",
+            "name": "Haitian 2400",
             "condition": {
-                "EAM": "В простое",
-                "Terminal": "В простое"
+                "EAM": 0,
+                "Terminal": 0
             },
             "pressform": "",
             "prodPlan": 0,
@@ -100,10 +100,10 @@
         },
         {
             "id": 6,
-            "name": "ТПА Krauss Maffei 1600 (2)",
+            "name": "Krauss Maffei 1600 (2)",
             "condition": {
-                "EAM": "В работе",
-                "Terminal": "В работе"
+                "EAM": 1,
+                "Terminal": 1
             },
             "pressform": "Ящик R-KLT 6429.1 (RL-KLT 6280.1)",
             "prodPlan": 576,
