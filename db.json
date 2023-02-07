@@ -29,13 +29,7 @@
     {"id": 27, "last_name": "Филатов", "name": "Александр", "middle_name": "Максимович", "username": "filatov.a", "card_number": "", "roles": "Наладчик"},
     {"id": 28, "last_name": "Волкова", "name": "Вера", "middle_name": "Владимировна", "username": "volkova.v", "card_number": "", "roles": "Оператор"},
     {"id": 29, "last_name": "Савельев", "name": "Александр", "middle_name": "Александрович", "username": "saveliev.a", "card_number": "", "roles": "Оператор"},
-    {"id": 30, "last_name": "Киселева", "name": "Маргарита", "middle_name": "Тимофеевна", "username": "kiseleva.m", "card_number": "", "roles": "Оператор"},
-    {"id": 31, "last_name": "Симонов", "name": "Григорий", "middle_name": "Андреевич", "username": "simonov.g", "card_number": "", "roles": "Наладчик"},
-    {"id": 32, "last_name": "Нестерова", "name": "София", "middle_name": "Захаровна", "username": "nesterova.s", "card_number": "", "roles": "Оператор"},
-    {"id": 33, "last_name": "Шишкина", "name": "Ника", "middle_name": "Львовна", "username": "shishkina.s", "card_number": "", "roles": "Оператор"},
-    {"id": 34, "last_name": "Борисова", "name": "Вероника", "middle_name": "Глебовна", "username": "borisova.p", "card_number": "", "roles": "Оператор"},
-    {"id": 35, "last_name": "Ермолаев", "name": "Николай", "middle_name": "Дмитриевич", "username": "ermolaev.n", "card_number": "", "roles": "Наладчик"},
-    {"id": 36, "last_name": "Комаров", "name": "Богдан", "middle_name": "Захарович", "username": "komarov.b", "card_number": "", "roles": "Оператор"}
+    {"id": 30, "last_name": "Киселева", "name": "Маргарита", "middle_name": "Тимофеевна", "username": "kiseleva.m", "card_number": "", "roles": "Оператор"}
   ],
 
   "posts":
