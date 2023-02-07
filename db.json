@@ -17,12 +17,7 @@
         {"id": 14, "last_name": "Суханов", "name": "Дмитрий", "middle_name": "Романович", "username": "suhanov.d", "card_number": "", "roles": "Оператор"},
         {"id": 15, "last_name": "Грачева", "name": "Виктория", "middle_name": "Савельевна", "username": "gracheva.v", "card_number": "", "roles": "Оператор"},
         {"id": 16, "last_name": "Третьяков", "name": "Николай", "middle_name": "Даниилович", "username": "tretiakov.n", "card_number": "", "roles": "Технолог"},
-        {"id": 17, "last_name": "Леонова", "name": "Василиса", "middle_name": "Владиславовна", "username": "leonova.v", "card_number": "", "roles": "Оператор"},
-        {"id": 19, "last_name": "Соловьев", "name": "Михаил", "middle_name": "Никитич", "username": "soloviev.m", "card_number": "", "roles": "Оператор"},
-        {"id": 20, "last_name": "Зотова", "name": "Ольга", "middle_name": "Данииловна", "username": "zotova.o", "card_number": "", "roles": "Наладчик"},
-        {"id": 21, "last_name": "Казакова", "name": "Надежда", "middle_name": "Глебовна", "username": "kazakova.n", "card_number": "", "roles": "Оператор"},
-        {"id": 22, "last_name": "Зубкова", "name": "Милана", "middle_name": "Данииловна", "username": "zubkova.m", "card_number": "", "roles": "Оператор"},
-        {"id": 23, "last_name": "Дементьева", "name": "Мария", "middle_name": "Егоровна", "username": "dementieva.m", "card_number": "", "roles": "Технолог"}
+        {"id": 17, "last_name": "Леонова", "name": "Василиса", "middle_name": "Владиславовна", "username": "leonova.v", "card_number": "", "roles": "Оператор"}
     ],
 
     "tpa": [
@@ -108,6 +103,66 @@
             "pressform": "Ящик R-KLT 6429.1 (RL-KLT 6280.1)",
             "prodPlan": 576,
             "prodFact": 325
+        
+        },
+        {
+            "id": 7,
+            "name": "Uniloy 750",
+            "condition": {
+                "EAM": 0,
+                "Terminal": 0
+            },
+            "pressform": "",
+            "prodPlan": 0,
+            "prodFact": 0
+        
+        },
+        {
+            "id": 8,
+            "name": "Krauss Maffei 850",
+            "condition": {
+                "EAM": 0,
+                "Terminal": 0
+            },
+            "pressform": "",
+            "prodPlan": 0,
+            "prodFact": 0
+        
+        },
+        {
+            "id": 9,
+            "name": "ТПА Krauss Maffei 3200",
+            "condition": {
+                "EAM": 1,
+                "Terminal": 0
+            },
+            "pressform": "",
+            "prodPlan": 299,
+            "prodFact": 0
+        
+        },
+        {
+            "id": 7,
+            "name": "Uniloy 750",
+            "condition": {
+                "EAM": 0,
+                "Terminal": 0
+            },
+            "pressform": "",
+            "prodPlan": 0,
+            "prodFact": 0
+        
+        },
+        {
+            "id": 7,
+            "name": "Uniloy 750",
+            "condition": {
+                "EAM": 0,
+                "Terminal": 0
+            },
+            "pressform": "",
+            "prodPlan": 0,
+            "prodFact": 0
         
         }
     ]
