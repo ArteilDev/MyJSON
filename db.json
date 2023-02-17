@@ -1,34 +1,11 @@
 {
-    "users":
-    [
-        {"id": 1, "last_name": "Тазеев", "name": "Марат", "middle_name": "Айратович", "username": "tazeev.m", "card_number": "", "roles": "Администратор"},
-        {"id": 2, "last_name": "Ермолаев", "name": "Василий", "middle_name": "Евгеньевич", "username": "erolaev.v", "card_number": "", "roles": "Администратор"},
-        {"id": 3, "last_name": "Комаров", "name": "Павел", "middle_name": "Викторович", "username": "komarov.p", "card_number": "", "roles": "Администратор"},
-        {"id": 4, "last_name": "Воронина", "name": "Мелания", "middle_name": "Львовна", "username": "voronina.m", "card_number": "", "roles": "Оператор"},
-        {"id": 5, "last_name": "Гусев", "name": "Михаил", "middle_name": "Константинович", "username": "gusev.m", "card_number": "", "roles": "Наладчик"},
-        {"id": 6, "last_name": "Иванова", "name": "Валерия", "middle_name": "Алексеевна", "username": "ivanova.v", "card_number": "", "roles": "Оператор"},
-        {"id": 7, "last_name": "Корнева", "name": "Ариана", "middle_name": "Леонидовна", "username": "korneva.a", "card_number": "", "roles": "Оператор, Наладчик"},
-        {"id": 8, "last_name": "Матвеев", "name": "Матвей", "middle_name": "Лукич", "username": "matveev.m", "card_number": "", "roles": "Оператор"},
-        {"id": 9, "last_name": "Александрова", "name": "Эмилия", "middle_name": "Никитична", "username": "alexandrova.e", "card_number": "", "roles": "Наладчик"},
-        {"id": 10, "last_name": "Петухов", "name": "Даниил", "middle_name": "Михайлович", "username": "petuhov.d", "card_number": "", "roles": "Оператор"},
-        {"id": 11, "last_name": "Козлов", "name": "Степан", "middle_name": "Викторович", "username": "kozlov.s", "card_number": "", "roles": "Наладчик"},
-        {"id": 12, "last_name": "Мельникова", "name": "Марта", "middle_name": "Львовна", "username": "melnikova.m", "card_number": "", "roles": "Оператор"},
-        {"id": 13, "last_name": "Смирнов", "name": "Степан", "middle_name": "Александрович", "username": "smirnov.s", "card_number": "", "roles": "Наладчик"},
-        {"id": 14, "last_name": "Суханов", "name": "Дмитрий", "middle_name": "Романович", "username": "suhanov.d", "card_number": "", "roles": "Оператор"},
-        {"id": 15, "last_name": "Грачева", "name": "Виктория", "middle_name": "Савельевна", "username": "gracheva.v", "card_number": "", "roles": "Оператор"},
-        {"id": 16, "last_name": "Третьяков", "name": "Николай", "middle_name": "Даниилович", "username": "tretiakov.n", "card_number": "", "roles": "Технолог"},
-        {"id": 18, "last_name": "Смирнова", "name": "Валерия", "middle_name": "Львовна", "username": "smirnova.v", "card_number": "", "roles": "Оператор"},
-        {"id": 19, "last_name": "Даниилов", "name": "Павел", "middle_name": "Александрович", "username": "daniilov.p", "card_number": "", "roles": "Наладчик"},
-        {"id": 20, "last_name": "Иванов", "name": "Иванов", "middle_name": "Иванович", "username": "ivanov.i", "card_number": "", "roles": "Оператор"}
-    ],
-
     "tpa": [
         {
             "id": 0,
             "name": "Engel 5500",
             "condition": {
-                "EAM": 0,
-                "Terminal": 0
+                "EAM": "В простое",
+                "Terminal": "В простое"
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 354,
@@ -39,8 +16,8 @@
             "id": 1,
             "name": "Engel 160",
             "condition": {
-                "EAM": 1,
-                "Terminal": 1
+                "EAM": "В работе",
+                "Terminal": "В работе"
             },
             "pressform": "Перегородка поперечная TD1509.1",
             "prodPlan": 4800,
@@ -51,8 +28,8 @@
             "id": 2,
             "name": "Uniloy 2500",
             "condition": {
-                "EAM": 1,
-                "Terminal": 0
+                "EAM": "В работе",
+                "Terminal": "В простое"
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 480,
@@ -63,8 +40,8 @@
             "id": 3,
             "name": "Krauss Maffei 1600",
             "condition": {
-                "EAM": 1,
-                "Terminal": 0
+                "EAM": "В работе",
+                "Terminal": "В простое"
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 370,
@@ -75,8 +52,8 @@
             "id": 4,
             "name": "Engel 2300",
             "condition": {
-                "EAM": 1,
-                "Terminal": 0
+                "EAM": "В работе",
+                "Terminal": "В простое"
             },
             "pressform": "Мусорный бак 1100л",
             "prodPlan": 49,
@@ -87,8 +64,8 @@
             "id": 5,
             "name": "Haitian 2400",
             "condition": {
-                "EAM": 0,
-                "Terminal": 0
+                "EAM": "В простое",
+                "Terminal": "В простое"
             },
             "pressform": "",
             "prodPlan": 0,
@@ -99,8 +76,8 @@
             "id": 6,
             "name": "Krauss Maffei 1600 (2)",
             "condition": {
-                "EAM": 1,
-                "Terminal": 1
+                "EAM": "В работе",
+                "Terminal": "В работе"
             },
             "pressform": "Ящик R-KLT 6429.1 (RL-KLT 6280.1)",
             "prodPlan": 576,
@@ -111,8 +88,8 @@
             "id": 7,
             "name": "Uniloy 750",
             "condition": {
-                "EAM": 0,
-                "Terminal": 0
+                "EAM": "В простое",
+                "Terminal": "В простое"
             },
             "pressform": "",
             "prodPlan": 0,
@@ -123,20 +100,20 @@
             "id": 8,
             "name": "Krauss Maffei 850",
             "condition": {
-                "EAM": 0,
-                "Terminal": 0
+                "EAM": "В простое",
+                "Terminal": "В простое"
             },
             "pressform": "",
-            "prodPlan": 0,
-            "prodFact": 0
+            "prodPlan": "В простое",
+            "prodFact": "В простое"
         
         },
         {
             "id": 9,
             "name": "ТПА Krauss Maffei 3200",
             "condition": {
-                "EAM": 1,
-                "Terminal": 0
+                "EAM": "В работе",
+                "Terminal": "В простое"
             },
             "pressform": "",
             "prodPlan": 299,
